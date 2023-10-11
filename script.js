@@ -35,18 +35,18 @@ function timer() {
 
         ctrsce++;
 
-        if (ctrsce == 6) {
+        if (ctrsce == 61) {
             ctrsce = 0;
         }
-        else if (ctrsce == 5) {
+        else if (ctrsce == 60) {
             ctrmin++;
 
         }
-        else if (ctrmin == 5) {
+        else if (ctrmin == 60) {
             ctrmin = 0;
         }
 
-        if (ctrsce == 5 && ctrmin == 5) {
+        if (ctrsce == 60 && ctrmin == 60) {
             ctrhr++
         }
 
